@@ -1,6 +1,9 @@
 # Re-Snap!
 Re-Snap! is an implementation of the famous Snap game, implemented using React. In this game, you play against computer. If you're not faimilar with the "Snap" game, have a look at [this video](https://www.youtube.com/watch?v=ngkKM2YwcQc) for an introduction.
 
+# Play Re-Snap, online!
+A working version of Re-Snap! game is available [here](http://re-snap.s3-website-us-west-1.amazonaws.com/).
+
 ## Run Re-snap! locally
 To run Re-snap! locally, you need Node 12.6.0 installed and available globally via command line. Clone this repo and run the following commands to get it working locally:
 ```bash
