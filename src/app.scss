@@ -1,0 +1,17 @@
+.app__decks {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.app__deck {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+}
+
+.app__deck-count {
+  margin-bottom: 5px;
+  flex-grow: 0;
+}

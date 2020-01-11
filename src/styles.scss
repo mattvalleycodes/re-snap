@@ -1,0 +1,12 @@
+@use "./components/button";
+@use "./components/card";
+@use "./components/counter";
+@use "./app";
+
+html {
+  font-family: "Roboto";
+}
+
+body {
+  background: #eff3f6;
+}

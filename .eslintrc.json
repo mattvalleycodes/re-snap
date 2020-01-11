@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true
+  },
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "settings": {
+    "import/resolver": {
+      "babel-module": {}
+    }
+  },
+  "rules": {
+    "quotes": ["error", "double"],
+    "react/destructuring-assignment": ["off"],
+    "operator-linebreak": ["off"],
+    "implicit-arrow-linebreak": ["off"],
+    "no-confusing-arrow": ["off"],
+    "object-curly-newline": ["off"],
+    "arrow-parens": ["off"],
+    "react/jsx-one-expression-per-line": ["off"]
+  }
+}

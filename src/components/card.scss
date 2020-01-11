@@ -1,0 +1,43 @@
+.card {
+  width: 300px;
+  height: 400px;
+  border: solid 10px #69E781;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ffffff;
+  font-size: 100px;
+
+  &:hover {
+    border-color: #59d070;
+  }
+}
+
+.card--club {
+  background-image: url("assets/club.png");
+}
+
+.card--diamond {
+  background-image: url("assets/diamond.png");
+}
+
+.card--heart {
+  background-image: url("assets/heart.png");
+}
+
+.card--spade {
+  background-image: url("assets/spade.png");
+}
+
+.card--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.card--face-up {
+  background-repeat: no-repeat;
+  background-position: 20px 20px;
+}
+
+.card--face-down {
+  background: url("assets/pattern.png");
+}
